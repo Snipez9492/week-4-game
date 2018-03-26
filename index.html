@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal-Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<header>
+    <strong>
+        <h1 class="titleColor">Crystal-Game</h1>
+    </strong>
+</header>
+
+<body>
+
+    <section class="box">
+        <p>You will be given a random number at the beginning of the game. Each crystal will be worth a random value. The goal
+            is to select crystal and the totality of crystal should match the random value selected. If you go over the initial
+            value you lose, however you make get the matching value you win. Consider it like a game of blackjack.</p>
+    </section>
+
+
+    <div class="numberToMatch">
+        <h2>Number To Get:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+    <div class="gems">
+        <img class="crystal" id="one" src="assets/images/flat-diamond-icon.jpg" alt="Crystals" width="200px" height="200px"></img>
+        <img class="crystal" id="two" src="assets/images/flat-diamond-icon.jpg" alt="Crystals" width="200px" height="200px"></img>
+        <img class="crystal" id="three" src="assets/images/flat-diamond-icon.jpg" alt="Crystals" width="200px" height="200px"></img>
+        <img class="crystal" id="four" src="assets/images/flat-diamond-icon.jpg" alt="Crystals" width="200px" height="200px"></img>
+    </div>
+    <div class="userTotal">
+        <h2>Your total score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+
+
+    <script src="./assets/javascript/game.js" type="text/javascript"></script>
+</body>
+
+</html>

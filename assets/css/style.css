@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.lineup{
+    width: 100%;
+}
+
+header{
+    background-color: lightgrey;
+    width: 100%;
+    border: 25px solid rgb(20, 155, 218);
+    padding: 25px;
+    margin: 25px; 
+    text-align: center;
+}
+
+.box{
+    background-color: lightgrey;
+    width: 100%;
+    border: 25px solid rgb(20, 155, 218);
+    padding: 25px;
+    margin: 25px; 
+    text-align: center;
+}
+
+.foot{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid rgb(20, 155, 218);
+    padding: 25px;
+    margin: 25px; 
+    text-align: center;
+}
+
+.score{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid rgb(20, 155, 218);
+    padding: 25px;
+    margin: 25px; 
+    text-align: center
+}
